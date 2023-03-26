@@ -53,11 +53,11 @@ resource "kubernetes_deployment" "medicure" {
 
       spec {
         container {
-          image = "staragiledevops/medicure:1.0"
+          image = "sarthakwaghpatil/medicure:1.0"
           name  = "medicure"
           
       port {
-        container_port = 8083
+        container_port = 8081
       }
 
 }
